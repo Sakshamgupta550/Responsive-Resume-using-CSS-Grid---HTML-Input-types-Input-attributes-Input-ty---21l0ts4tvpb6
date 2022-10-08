@@ -12,7 +12,7 @@
     grid-template-columns: 300px 700px;
 }
 .left-section{
-    
+    width: 300px;
     background: linear-gradient(red, yellow);
 }
 .right-section{
@@ -82,6 +82,8 @@ a{
 .skill-name{
     font-size: 0.65rem;
     padding-bottom: 0.5rem;
+    text-align: left;
+
 }
 .progress-bar{
     height: 4px;
@@ -103,6 +105,10 @@ a{
 }
 
 /* right side design */
+.right-section{
+    width: 700px;
+    background: linear-gradient(yellow, red);
+}
 
 .right-main-content{
     padding: 2rem 3rem;
